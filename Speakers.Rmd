@@ -23,10 +23,10 @@ library(ggplot2)
 library(plotly)
 SS4 <- SS3
 SS4$Score = as.numeric(as.character(SS4$Score))
-P <- ggplot(SS4, aes(Theme, Score)) +   
+T <- ggplot(SS4, aes(Theme, Score)) +   
     geom_bar(aes(fill = Theme, color=Speaker), position = "dodge", stat="identity")+scale_color_manual(values=c(rep("white", 45)))+theme(legend.position="none")
-p=ggplotly(P + ggtitle("Survey Respondent's Rating of Themes"))
-p
+t=ggplotly(T + ggtitle("Survey Respondent's Rating of Themes"))
+t
 ```
 
 ## R Markdown

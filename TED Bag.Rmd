@@ -1,0 +1,75 @@
+---
+title: "TW Code"
+output: html_document
+---
+Cleaning
+```{r setup, include=FALSE}
+library(readxl)
+library(tm)
+library(SnowballC)
+library(wordcloud)
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+library(topicmodels)
+library(data.table)
+library(plotly)
+Sys.setlocale("LC_ALL", "C")
+GB <- read_excel("~/Documents/Gift Bag data.xlsx")
+G1 <- na.omit(GB)
+G1 <- G1[-1,]
+seed <- 75
+colnames(G1) <- "x"
+G1$x <- removePunctuation(G1$x)
+G1$x <-tolower(G1$x)
+G1$x <-removeNumbers(G1$x)
+G1$x <-removeWords(G1$x, stopwords("en"))
+new_stops <- c("<U+00A0>", stopwords("en"))
+G1$x <-removeWords(G1$x, new_stops)
+G1 <- as.data.frame(lapply(G1, function(x) {
+              gsub("\u00A0", "", G1$x)
+         })) 
+new_stops <- c("<U+201A>", "<U+00C4>", "<U+00F4>", stopwords("en"))
+G1$x <-removeWords(G1$x, new_stops)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+Process text using the tm package
+```{r cars}
+corpus <- Corpus(VectorSource(G1$x))
+corpus <- tm_map(corpus, stripWhitespace)
+corpus <- tm_map(corpus, tolower)
+corpus <- tm_map(corpus, removeWords, stopwords('english'))
+corpus <- tm_map(corpus, stemDocument)
+corpus <- tm_map(corpus, removeNumbers)
+corpus <- tm_map(corpus, removePunctuation)
+tdm.corpus <- TermDocumentMatrix(corpus)
+tdm.corpus <- removeSparseTerms(tdm.corpus, 0.99)
+positive <- readLines("~/Documents/TED Survey/positive-words.txt")
+negative <- readLines("~/Documents/TED Survey/negative-words.txt")
+G1$positive <- tm_term_score(tdm.corpus, positive)
+G1$negative <- tm_term_score(tdm.corpus, negative)
+G1$score <- G1$positive - G1$negative
+mean(G1$positive)
+mean(G1$negative)
+setDT(G1, keep.rownames = TRUE)[]
+GS <- select(G1, 1,5)
+colnames(GS) <- c("Respondents","Score")
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+p <- plot_ly(y = GS$Score, type = "box",  name = ("Sentiment Scores Gift Bags"), boxpoints = "all", jitter = 0.3,
+             pointpos = -1.8)
+p
+dat <- data.frame(cond = factor(rep(c("A","B"), each=200)), rating = c(rnorm(200),rnorm(200, mean=.8)))
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

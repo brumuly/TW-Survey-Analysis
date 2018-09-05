@@ -1,0 +1,50 @@
+---
+title: "Speaker"
+output: html_document
+---
+```{r setup, include=FALSE}
+library(readxl)
+SpeakerScores <- read_excel("~/Documents/SpeakerScores 1.xlsx")
+SpeakerScores <- ifelse(SpeakerScores == "Outstanding" | SpeakerScores == "Wonderful", 1, ifelse(SpeakerScores == "Good", 0, -1))
+SS1 <- na.omit(SpeakerScores) 
+SS1 <- colMeans(SS1)
+SS1 <- as.data.frame(SS1)
+SS1 <- t(SS1)
+SpeakerScores1 <- read_excel("~/Documents/SpeakerScores.xlsx")
+Sessions <- SpeakerScores1[1,]
+SS2 <- rbind(SS1, Sessions)
+SS3 <- as.data.frame(SS2)
+SS3 <- t(SS3)
+SS3 <- as.data.frame(SS3)
+library(data.table)
+setDT(SS3, keep.rownames = TRUE)[]
+colnames(SS3) <- c("Speaker","Score", "Theme")
+library(ggplot2)
+library(plotly)
+SS4 <- SS3
+SS4$Score = as.numeric(as.character(SS4$Score))
+P <- ggplot(SS4, aes(Theme, Score)) +   
+    geom_bar(aes(fill = Theme, color=Speaker), position = "dodge", stat="identity")+scale_color_manual(values=c(rep("white", 45)))+theme(legend.position="none")
+p=ggplotly(P + ggtitle("Survey Respondent's Rating of Themes"))
+p
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

@@ -2,6 +2,7 @@
 title: "Speaker"
 output: html_document
 ---
+
 ```{r setup, include=FALSE}
 library(readxl)
 SpeakerScores <- read_excel("~/Documents/SpeakerScores 1.xlsx")
@@ -27,6 +28,16 @@ T <- ggplot(SS4, aes(Theme, Score)) +
     geom_bar(aes(fill = Theme, color=Speaker), position = "dodge", stat="identity")+scale_color_manual(values=c(rep("white", 45)))+theme(legend.position="none")
 t=ggplotly(T + ggtitle("Survey Respondent's Rating of Themes"))
 t
+
+SS15 <- select(SS4, 2, 3)
+SS16 <- aggregate(SS15[,1], list(SS15$Theme), mean)
+colnames(SS16) <- c("Theme","Score")
+Q <- plot_ly(
+  x = SS16$Theme,
+  y = SS16$Score,
+  name = "Survey Respondent's Rating of Themes",
+  type = "bar",  color = SS16$Theme
+)
 ```
 
 ## R Markdown

@@ -1,0 +1,87 @@
+---
+title: "DNA Data"
+author: "Blake"
+date: "10/9/2018"
+output: html_document
+---
+# Did Not Attend Data:
+
+### Session 1: 
+81 total responses, 6 references coded:
+
+Reference 1: Missed this session,
+
+Reference 2: I didn't get to see session 1 ,
+
+Reference 3: My flight got diverted and, inevitably delayed so I had to miss this session.",
+
+Reference 4: I hadn't arrived yet so I missed the entire day.
+
+Reference 5: I didn't watch it.
+
+Reference 6: I was not able to attend.
+
+### Session 2: 
+74 total responses, 7 references coded:
+
+Reference 1: Didn't see it,
+
+Reference 2: I didn't attend and there isn't a N/A option,
+
+Reference 3: I wasn't able to attend this session,
+
+Reference 4: I was in hair and make-up during this session and unfortunately did not get to hear any of the talks in full. 
+
+Reference 5: I wasn't able to make it on time. I needed to get some work done in the am, so I had to skip this early session.
+
+Reference 6: Unfortunately, I missed this session.
+
+Reference 7: Didn't watch it,
+
+### Session 3: 
+72 total responses, 4 references coded:
+
+Reference 1: I'm embarrassed to have missed session 3. Especially because I missed Deborah Willis.
+
+Reference 2: I only got to see part of this,
+
+Reference 3: Unable to attend this session,
+
+Reference 4: I did not see this session.
+
+### Session 4: 
+55 total responses, 6 references coded:
+
+Reference 1: I missed this sadly.
+
+Reference 2: Missed this session and walked our legs off in NOLA,
+
+Reference 3: Was unable to attend,
+
+Reference 4: I missed this session,
+
+Reference 5: I missed several speakers sadly.
+
+Reference 6: I did not see this session.
+
+### Session 5: 
+80 total responses, 3 references coded:
+
+Reference 1: Missed the first ones,
+
+Reference 2: Attended partially,
+
+Reference 3: I didn't get to see Sally's talk. 
+
+### Session 6: 
+87 total responses, 5 references coded:
+
+Reference 1: I had to leave early,
+
+Reference 2: I had to leave for a flight,
+
+Reference 3: Sadly had to miss this session to travel.
+
+Reference 4: I was sad to have to leave early to catch a flight,
+
+Reference 5: I did not attend this session.

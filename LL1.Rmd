@@ -1,0 +1,27 @@
+---
+title: "LL1"
+author: "Blake"
+date: "10/9/2018"
+output: html_document
+---
+# Lessons Learned 
+### TED Women 2017 
+1. The gift bag wasn't overwhelmingly loved, as something "gifted" and free should have a higher average. 
+
+2. One poorly received speaker can leave a lasting impression on the session, and on a person's experience as a whole (as numerous final comments about the event itself mentioned speakers that the attendee disliked). 
+
+3. Even when questions aren't phrased with call to action words, people felt inclined to act based on certain talks or the event as a whole. 
+
+### Looking Forward 
+1. Create consistent surveys to compare surveys across years to determine where improvements can and/or have aptly been made. 
+
+2. Better mixture of qualitative and quantitative data to combine the benefits of objective data with the holistic offerings of qualitative data. Individual topics can have both a quantitative question and a qualitative short answer option to expand upon their choice. 
+
+3. Reconsider rating system for speakers to be clearer (such as a Likert scale), as more than one person commented on not being able to differentiate between the options. 
+
+4. Directly ask if people attended individual sessions with option to explain why they didn't attend them. 
+
+5. Potentially ask attendees if they felt like the talks connected to the session themes and/or if themes connected across sessions. 
+
+6. Consider taking demographic information (even if just the most basic information) so that stronger analysis can be done across groups.
+

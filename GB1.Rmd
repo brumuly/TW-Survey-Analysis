@@ -1,0 +1,23 @@
+---
+title: "GB1"
+author: "Blake"
+date: "10/9/2018"
+output: html_document
+---
+## Selected Comments about the Gift Bags:
+
+"The gift bag was insulting. I came to TEDWomen to be empowered as an educated leader. Not to reinforce the message that women need to be wrinkle-free and cook dinner."
+
+"I like the contents, but missed having a more sturdy bag and a water bottle, items I would have used there and in the future. The focus on beauty was interesting. Many others who had been to previous TEDWomen events expressed disappointment - on their recommendation I've subsequently bough 2 AWAY cases which I understand were offered last year. The jewellery gift voucher is a lovely idea, but would be usable by more attendees if the deigns available were more affordable"
+
+"Didn't need most of the stuff. Should have an option to 'drop off' gifts back (similar to how we dropped off the name tags). Loved the chrome cast and Logitech pointer though :-)."
+
+"Love the beauty products, the bag not memorable, last years was an event. this year was Ok. Could have had some NOLA spices or a box of pralines = something of the location would have made a statement of Nola..."
+
+"I would have appreciated more gender-neutral items. Not every woman (cis or not) needs beauty products or a cooking book."
+
+"Would have been nice if there had been more connection between the gift bag products and some of the speaker topics (e.g. health, poetry, music) and refugee artisan goods."
+
+"I thought it was interesting that the gift bag was very gendered towards women - cookbook, skincare, jewelry gift card. Only the snack, socks and chromecast assumed non-girliness. I wish there were some more variety like the regular TED conference. I am still extremely pleased what was in the bag - everything in it is of use to me."
+
+"I have so many comments about the gift bag. First and foremost, shame on you TED. I mean, seriously. SHAME ON YOU. 90% MAKEUP, jewelry, and a FUCKING COOKBOOK? for TEDWomen?! Are you insane? I'm offended, shocked, and disappointed that no one bothered to stop and ask themselves "hey, does this array of gifts accurately reflect the gender parity we are attempting to promote with this event full of highly accomplished, brilliant women that are known for their brains and not their looks?" It's a shame no one asked themselves that question, because the answer would have been a resounding "NO THIS DOES NOT REPRESENT AN APPROPRIATE GIFT FOR A GROUP OF BRILLIANT WOMEN" or a group of any women for that matter unless you are actually at a domestic homemaker/beauty conference. I can't imagine that the men that attended this event were terribly thrilled receiving eye cream and lipgloss, and I imagine attendees at TEDMen (uh, sorry, regular TED) don't receive sample sizes of beauty products and beard softener. I understand TEDWomen cost only a quarter of TEDMen - but so that means we shouldn't expect the same (or even similar) quality of products in the gift bag? We shouldn't expect products that are useful to us as accomplished, professional women? At the very least, shouldn't we pay 66% of what TEDMen costs, because that's the average pay gap in Louisiana? At least that would make sense. I am so disappointed in the lack of local inclusion of this event, and the token white feminism undercurrent of the whole event and the gift bag is just so perfectly represented the blatant, symbolic, tacit lack of meaningful engagement or parity of organizing for a group of women (or even awareness - come on TED, really?!)."

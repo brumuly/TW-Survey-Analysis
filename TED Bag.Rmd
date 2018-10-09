@@ -3,6 +3,7 @@ title: "TW Code"
 output: html_document
 ---
 Cleaning
+
 ```{r setup, include=FALSE}
 library(readxl)
 library(tm)
@@ -59,7 +60,21 @@ mean(G1$negative)
 setDT(G1, keep.rownames = TRUE)[]
 GS <- select(G1, 1,5)
 colnames(GS) <- c("Respondents","Score")
+
+R <- read_excel("GB.xlsx")
+GR <- ifelse(GR == "Outstanding" | GR == "Wonderful", 1, ifelse(GR == "Good", 0, -1))
+GR <- na.omit(GR)
+GR <- as.data.frame(GR)
+setDT(GR, keep.rownames = TRUE)[]
+GR <- read_excel("GB.xlsx")
+GR <- ifelse(GR == "Outstanding" | GR == "Wonderful", 1, ifelse(GR == "Good", 0, -1))
+GR <- na.omit(GR)
+GR <- as.data.frame(GR)
+setDT(GR, keep.rownames = TRUE)[]
+GR1 <- GR
+names(GR1) <- c("Respondents", "Score")
 ```
+
 
 ## Including Plots
 
@@ -70,6 +85,51 @@ p <- plot_ly(y = GS$Score, type = "box",  name = ("Sentiment Scores Gift Bags"),
              pointpos = -1.8)
 p
 dat <- data.frame(cond = factor(rep(c("A","B"), each=200)), rating = c(rnorm(200),rnorm(200, mean=.8)))
+
+d <- plot_ly(GS, x = ~Respondents, y = ~Score, color = ~Score, colors = c('#BF382A', '#0C4B8E'),
+             marker = list(symbol = 'circle', sizemode = 'diameter'), sizes = c(5, 150),
+             text = ~paste('Score:', Score)) %>% layout(title = 'Sentiment Scores for Gift Bags',
+                                                        scene = list(xaxis = list(title = 'Scores',
+                                                                                  gridcolor = 'rgb(255, 255, 255)',
+                                                                                  range = c(2.003297660701705, 5.191505530708712),
+                                                                                  type = 'log',
+                                                                                  zerolinewidth = 1,
+                                                                                  ticklen = 5,
+                                                                                  gridwidth = 2),
+                                                                     yaxis = list(title = 'Respondents',
+                                                                                  gridcolor = 'rgb(255, 255, 255)',
+                                                                                  range = c(36.12621671352166, 91.72921793264332),
+                                                                                  zerolinewidth = 1,
+                                                                                  ticklen = 5,
+                                                                                  gridwith = 2),
+                                                                     
+                                                                     
+                                                                     paper_bgcolor = 'rgb(243, 243, 243)',
+                                                                     plot_bgcolor = 'rgb(243, 243, 243)'))
+
+i <- plot_ly(x = GR1$Score, y = GR1$Respondents) %>%
+  add_trace(y = rev(GR1$Respondents)) %>%
+  layout(
+    xaxis = list(range = c(-1, 0, 1)),
+    yaxis = list(range = c(100, 150, 200))) 
+GR1 <- c(77, 71, 98)
+GR2 <- c(-1,0,1)
+GR3 <- data.frame(GR1, GR2)
+v <- plot_ly(
+  x = GR3$GR2,
+  y = GR3$GR1,
+  name = "Score",
+  type = "bar",
+  color ="slateblue"
+)
+df1 <- data.frame(GS, label=rep('Sentiment Score', 146))
+df2 <- data.frame(GR, label=rep('Recoded Score', 246))
+names(df2) <- c("Respondents", "Score", "label")
+df=rbind(df1, df2)
+i  <- ggplot(df, aes(Score, colour=label, fill=label)) 
+i  <- i + geom_density(alpha=0.55)
+
+
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

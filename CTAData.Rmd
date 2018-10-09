@@ -1,0 +1,43 @@
+---
+title: "CTAData"
+author: "Blake"
+date: "10/9/2018"
+output: html_document
+---
+# CTA Data
+
+### Carry: 
+1. Files\\Other Comments: I will carry the speakers' ideas into my life for years to come. I'll also carry the conversations, connections, changed perspectives and sense of hope that women and men together can create such positive change in this shared world of ours.
+
+### Inspire: 
+1. Files\\Session 3: Deborah and Hank were deeply inspiring. I'm very excited to go out and learn more about each of them and their work.
+
+### Made: 
+1. Files\\Session 6: Loved them all but Isirika was something that made me want to learn and share with my community.
+
+### Share: 
+1. Files\\Session 2: John Cary speaking about designing for dignity is something I will keep thinking about and share.,
+2. Files\\Session 4
+Loved so many talks from this session and found many I want to share with colleagues and friends.
+3. Files\\Session 6: 2 references coded
+
+  a. Reference 1: 
+
+  It was motivating to get out in my own community and share what I heard.
+
+  b. Reference 2:
+
+  Loved them all but Isirika was something that made me want to learn and share with my community.
+
+### Took: 
+1. Files\\Session 6: Inspired and took a way tangible next steps.
+
+### Volunteer: 
+1. Files\\How Well: The inspiration I received from TED & its ideas made me volunteering as a translator to spread the word to speakers of my mother language
+
+### Want: 
+1. Files\\Session 4: Loved so many talks from this session and found many I want to share with colleagues and friends. 
+2. Files\\Session 6: Loved them all but Isirika was something that made me want to learn and share with my community.
+
+### Work: 
+1. Files\\Session 4: Dixon Chibanda inspired me! I'm now working with the New Orleans mayors office to explore bringing his approach here!

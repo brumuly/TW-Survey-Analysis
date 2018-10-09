@@ -1,0 +1,41 @@
+---
+title: "Freequency"
+author: "Blake"
+date: "10/9/2018"
+output: html_document
+---
+# Coments about FreeQuency:
+
+"Really well, however, I was alarmed when FreeQuency said you asked her to cut part of her talk out. As a TEDx organizer, I understand working with people to streamline their thoughts, however, I also appreciate the need to be very careful in not telling people what to say - or not to say. It did make me wonder which controversial topics/speakers may have also received similar advice."
+
+"Before FreeQuencys talk I would say outstanding! But after her talk I wondered what else was censored out."
+
+"I was super disappointed to hear that the TED producers tried to censor FreeQuency and was proud of her for speaking up and staying on the black lives matter theme regardless. Put a bit of a bitter taste in my mouth :("
+
+"Free said she or he would not talk about BLM and lied to the audience and TED she has too much hate inside."
+
+"I was dismayed, but unfortunately not surprised by FreeQuencys revelations. I hoped for more from a TED event."
+
+"I love that FREEQuency went rogue. More speakers should."
+
+"FreeQuency was really disrespectful to TEDWomen. I felt it was unfair of her to voice her opinion like that on the stage without letting the audience have insight into TEDs side of the story. Of course we all want people to have freedom of expression, but my guess is that TED producers were simply trying to help curate the best possible talk, not silence her in any way."
+
+"The move pulled on FreeQuency was so uncool."
+
+"I really hope you do not censor FreeQuencys ad-libbed addition to her talk, her critiques of TED. Those were powerful."
+
+"I think FreeQuencys moment of turning to her experience with TED was important, but also echoed after the talks in a way I think hurt the message of other speakers. Much was said about what TED would do with her talk online, and how the suggestion that she not talk about BLM would be handled."
+
+"Also- who said too much Black Lives Matter?? This is what FreeQuency said re TED organization allowing her to speak her words. True??"
+
+"Confused by FreeQuencys remarks about being told what to say or not say."
+
+"Overall, this was an excellent conference. I especially enjoyed listening to Mwende FreeQuency Katwiwa, who ended up demonstrating her courage of speaking her truth on the stage at Ted Women. She was invited to speak about reproduction rights, and she definitely talked about this. But she also talked about how she had always imagined becoming a mother, ever since she was little, and she used to touch her lower belly, thinking that this was where her baby was going to housed. But today, this thought of becoming a mother, what she, a black woman, will produce, a black son or daughter, did not feel safe to her. This point of contemplation, what does it mean for a black woman to create a life in the United States where safety is not offered to black men? has a direct connection to how she works on reproductive rights for women. Mwende mentioned how she was advised by the Ted team to focus on the topic of reproductive rights during rehearsal; she was told that there were six speakers who had already talked about Black Lives Matter at a past conference. She explained that she became afraid then; she did not know if she could speak about the truth that mattered to her. Listening to her, I could see that she had thought deeply about this. Presenting at the TED Women is highly honorable opportunity, and making a comment that challenges the practice of the Ted conference must have taken tremendous courage. But she is practicing speaking her truth immediately when a problematic incident occurs. Her action reminded me of Audre Lorde???s words: 'I have come to believe over and over again that what is most important to me must be spoken, made verbal and shared, even at the risk of having it bruised or misunderstood??? And of course, I am afraid-- you can hear it in my voice-- because the transformation of silence into language and action is an act of self revelation and that always seem fraught with danger.' I hope TED Women team also felt that this incident was insightful. It was clear to me that both TED Women and the speaker were doing the right thing, yet sometimes, a bit of gap occurs. I thought it would have been helpful for the host to comment on this at one point, that this type of disagreement or discussion is something for us to embrace and the point of this conference."
+
+"And whoever told FreeQuency to cut the BLM part from her talk was way off-base. That was one of the most electric moments of the whole event. I wish she had been in the first session, actually."
+
+"FreeQuencys performance was the most talked about at the dinner table Thursday evening."
+
+"Please be brave and post FreeQuencies talk, it was a mistake for her to be tempered and it is esteemable to acknowledge it."
+
+"I want to know what REALLY happened with the Black Lives Matter protest of Freq. Shocked that the poet was told not to include BLM. Glad she spoke out about it."

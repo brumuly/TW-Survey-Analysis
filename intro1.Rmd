@@ -1,0 +1,20 @@
+---
+title: "Intro1"
+author: "Blake"
+date: "10/9/2018"
+output: html_document
+---
+# TED Women 2017 Survey Analysis
+***
+### What is this app?
+This is a Shiny App (Dashboard) created by Blake Rumuly to display the analysis of the TED Women 2017 Survey. The goal was to find useful insights from the survey to improve understanding of attendee's experiences at the event, understand potential approaches for future events, and to improve the survey process for the future.
+<br> 
+### How do I use it?
+The interactive graphs (all of them except for the CTA visualization) have hovering capabilities, as well as the ability to zoom in or out, and removing variables. Feel free to click around. Navigate through the app using the tabs at the top. A high-level overview of what each does presented below:
+* __Speaker Scores:__ Visualizes the recoded scores for speakers connected by sessions in an interactive graph and aggregated scores for the sessions based on speaker scores.
+* __Gift Bag:__ A bar graph of recoded values, a box plot of the sentiment scores, a density plot comparing the previous two data sets, and selected responses pertaining to the gift bags.
+* __CTA:__ A pie chart of the Calls to Action (CTA) and the text examples of the CTA's.
+* __Comments About Freequency:__ The raw data as sourced from the survey pertaining to comments about Freequency from across all questions.
+* __Did Not Attend Sessions:__ A stacked bar chart of the counts of people who did and did not attend sessions based on responses, along with the specific comments from those who did not attend.
+* __Lessons Learned:__ A brief overview of key takeaways from the data analysis and suggestions for future surveys.
+
